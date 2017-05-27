@@ -1,0 +1,28 @@
+{
+  "name": "getthejob",
+  "version": "1.0.0",
+  "description": "web scraping application that scrapes job postings from indeed.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacquep/GetTheNews.git"
+  },
+  "author": "jacqueline palmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacquep/GetTheNews/issues"
+  },
+  "homepage": "https://github.com/Jacquep/GetTheNews#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.0",
+    "request": "^2.81.0"
+  }
+}
